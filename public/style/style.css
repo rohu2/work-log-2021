@@ -1,0 +1,272 @@
+/* blue rgb(0, 81, 255); */
+:root {
+  
+  --main-bg-blue: linear-gradient(to bottom right, rgb(17, 82, 179), rgb(11, 123, 197));
+  
+  --main-lines-color: rgb(0, 81, 255);
+
+  --main-text-color-light:  rgb(88, 141, 255);
+  
+  --main-interfaces-color: linear-gradient(to bottom, rgba(0, 0, 245, 0.644),rgba(8, 1, 109, 0.644) );
+ 
+  --semi-transparent: linear-gradient(to bottom right, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.164));
+
+  --semi-translucent: linear-gradient(to bottom right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.35));
+
+ 
+}
+
+html{
+
+padding: 0px;
+margin: 0px;
+  
+  }
+  
+
+
+
+body{
+
+height: auto;
+
+background: var(--main-bg-blue);
+
+font-family: 'Roboto', sans-serif;
+
+padding: 0px;
+padding-top: 100px;
+margin: 0px;
+
+}
+  
+
+#display-container{
+
+width: 465px;
+
+padding: 0 27%;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+#data-display{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+
+h4{
+
+width: 100%;
+
+display: flex;
+justify-content: flex-end;
+text-align: center;  
+}
+
+
+
+.collapse-container{
+
+border-radius: 25px;
+
+}
+
+
+
+.delete-me{
+
+background: red;
+
+}
+
+
+
+
+.week-label{
+
+width:  100%;
+height: 30px;
+
+padding-top: 5px;
+
+background-color: rgba(11, 88, 139, 0);
+
+opacity: 0;
+transition: 1s;
+
+position: absolute;
+z-index: 1; 
+  
+}
+  
+
+
+td{
+
+height: auto;
+max-height: 0px;
+
+}
+
+
+.subtable td{
+
+width: 65px;
+max-height: 50px;
+
+}
+
+
+
+
+
+table{
+width: 400px;
+text-align: center;
+}
+        
+        
+.table{
+border-collapse: collapse;  
+}
+        
+
+
+
+
+
+.tr td{
+
+padding: 9px 0;
+color: rgb(0, 0, 0);
+font-size: 14.5px;
+
+transition: 1s;
+
+}
+
+
+.nested-div:hover{
+
+padding-bottom: 35px;
+  
+}
+
+
+
+
+.subtable{
+
+
+border: 1px solid rgba(255, 0, 0, 0);
+ 
+text-align: center;
+
+
+border-spacing: 10px; 
+border-collapse: collapse;
+
+
+pointer-events: none;
+
+
+
+
+width: 100%;
+
+
+}
+
+
+
+
+
+.month{
+
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+    flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+  
+  transition: 1s;
+  
+  border-radius: 5px;
+  padding: 0px 20px;
+  padding-bottom: 20px ;
+  padding-top: 0px ;
+  
+  margin: 10px;
+  
+  
+  /* background: linear-gradient(to bottom right, rgb(0, 255, 76), rgb(30, 223, 110));
+  background: linear-gradient(to bottom right, rgb(0, 162, 255), rgb(30, 178, 223));
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.164)); */
+  background: var(--semi-transparent);
+    
+  max-height: 2000px;
+  /* width: 480px;
+   */
+  
+  overflow: hidden;
+  
+  }
+  
+
+
+
+  .month.selected{
+
+    opacity: 1;
+    
+    background: rgba(255, 255, 255, 0.671);
+    
+    box-shadow: 0 0 3px 1px white;
+    
+    background: var(--semi-translucent);
+    
+    
+     }
+
+
+
+
+
+
+  .nested-div{
+
+    position: relative;
+     /* border: 1px solid rgb(0, 81, 255); */
+     border: 1px solid var(--main-lines-color);
+     
+     border-radius: 5px;
+     margin: 10px; 
+     padding-right: 10px;
+     padding-left: 10px;
+
+     
+
+     
+     overflow: hidden;
+     
+     transition: ease 1s;
+
+     /* width: 450px; */
+      
+     
+     }
+
+
+

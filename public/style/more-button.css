@@ -1,0 +1,42 @@
+
+#more-button{
+
+    background: rgba(0, 83, 236, 0.438);
+    
+    width: 96.5%;
+    height: 60px;
+    
+    border-radius: 5px;
+    
+    margin: 10px;
+    margin-bottom: 100px;
+
+    opacity: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    }
+    
+    
+    #more-button:hover{
+    
+      background: rgba(0, 83, 236, 0.918);
+    
+    
+    
+    }
+    
+    
+    #more-button:active{
+    
+      background: rgba(0, 83, 236, 0.61);
+      background: rgb(255, 72, 72);
+    
+    
+    }
+    
+    

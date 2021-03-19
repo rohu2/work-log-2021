@@ -1,0 +1,132 @@
+
+
+#post-button-container{
+  
+width: 100%;
+height: 30%;
+
+border-radius: 0px 0px 100px 100px;
+    
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#deletion{
+
+border: 1px solid red;
+box-shadow: 0 0 10px 10px  rgba(255, 46, 46, 0.521);    
+
+}
+    
+    
+    
+#post-button-core{
+
+width : 30px;
+height: 30px;
+
+border-radius: 50px;
+
+color: white;
+
+transition: 0.5s;
+opacity: 0;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+              
+              
+#post-button-core:hover{
+   
+width: 70px;
+height: 70px;
+
+transition: 0.5s;
+opacity: 1;
+
+display: flex;
+justify-content: center;
+align-items: center;
+              
+}
+
+
+.add-mode{
+
+width : 30px;
+height: 30px;
+
+background: rgba(46, 112, 255, 0.219);
+border: 2px solid rgb(255, 255, 255);
+box-shadow: 0 0 10px 10px  rgba(46, 112, 255, 0.219);
+border-radius: 50px;
+
+transition: 1s;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+
+.add-mode:hover{
+
+width : 70px;
+height: 70px;
+
+background: rgba(46, 112, 255, 0.219);
+border: 2px solid rgb(255, 255, 255); 
+
+transition: 1.5s;
+ 
+}
+
+
+
+
+
+
+.delete-mode{
+
+width : 30px;
+height: 30px;     
+
+border-radius: 50px;
+box-shadow: 0 0 10px 10px  rgba(255, 46, 46, 0.219);
+border: none;
+border: 2px solid rgb(255, 0, 0);
+
+transition: 1s;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+.delete-mode:hover{
+
+width : 70px;
+height: 70px;
+
+border: 2px solid rgb(255, 0, 0);
+
+transition: 1.5s;
+
+}

@@ -1,0 +1,396 @@
+#add-data-container{
+    
+
+
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+    
+  width: 40px;
+  height: 40px;
+
+
+
+
+}
+ 
+
+ 
+ 
+
+#add-data-subtitle{
+    
+
+      
+          font-size: 13px;
+      
+      width: 40px;
+      height: 13px; 
+      
+      margin-top: 5px;
+
+      opacity: 0;
+      transition: 1s;
+      
+      color: var(--main-text-color-light)
+      
+        }
+           
+
+
+
+
+
+
+
+
+ 
+ #add-data{
+
+    /* position: relative;
+    top: 5%;
+    left: 4%; */
+    
+    width: 15px;
+    height: 15px;
+    
+    border: 2px solid blue;
+    
+    
+    
+      }
+    
+    
+    
+    
+   
+    
+    
+    
+ 
+    
+    
+    #add-data-container:hover #add-data-subtitle{
+    
+      transition: 1s;
+    opacity: 1;
+    
+    
+    }
+    
+    
+
+#day{
+
+
+background: rgba(0, 195, 255, 0.13);
+
+color: white;
+
+width: 90px;
+height: 25px;
+border-radius: 5px;
+
+padding-top: 5px;
+
+
+text-align:center;
+
+display: inline-block;
+
+
+}
+
+
+
+    #circle-container{
+
+
+       display: flex;
+justify-content: center;
+      
+
+    }
+    
+
+
+    .circle{
+
+        border-radius: 45px;
+        
+        width: 80px;
+        height: 80px;
+        
+        background: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding: none;
+        margin: 5px;
+
+        
+        }
+
+
+
+    .circle .input{
+
+    width: 55px;
+color: rgb(5, 63, 5);
+
+
+
+text-align:center
+
+
+}
+
+.input::placeholder{
+
+
+
+
+}
+
+
+
+
+#input-container{
+
+
+
+width: 100%;
+
+display: flex; 
+justify-content: center;
+
+
+
+}
+
+
+#input-container.div #input-container.input{
+
+
+
+padding: 0px 10px;
+
+display: inline-block;
+
+
+
+}
+
+
+
+
+input{
+
+
+padding: 3px;
+
+text-align:center;
+padding: 5px;
+}
+
+
+
+
+#input1{
+
+  width: 30px;
+ 
+
+}
+
+
+#input4{
+
+  width: 70px;
+  
+}
+
+
+#input5{
+
+  width: 50px;
+  
+}
+
+
+
+
+
+#input2{
+
+
+
+}
+
+
+#input3{
+
+
+
+}
+
+
+
+
+
+
+
+.control{
+
+   
+    position: fixed;
+    
+  
+  border-radius: 5px;
+    width: 260px;
+   
+    /* background: rgba(166, 166, 226, 0.644);
+    background: linear-gradient(to bottom, rgba(166, 166, 226, 0.644),rgba(252, 25, 112, 0.644) );
+    background: linear-gradient(to bottom, rgba(0, 0, 245, 0.644),rgba(8, 1, 109, 0.644) );
+   */
+
+   background: var(--main-interfaces-color);
+
+    border: 0.5px solid white;
+
+    box-shadow: 0 0 2px 1px white;
+  
+    z-index: 2;
+    transition: transform 0.5s ease-in;
+
+
+    }
+
+    .control input{
+
+    line-height: 20px;
+    border-radius: 5px;
+    color: rgb(25, 0, 255);
+    
+    
+    font-family: 'Roboto', sans-serif;
+font-size: 15px;
+
+    outline: none;
+    border: none;
+
+
+
+    }
+
+
+
+    .control #date{
+
+
+        line-height: 20px;
+        border-radius: 5px;
+        color: rgb(17, 0, 255);
+        width: 30px;
+        outline: none;
+        border: none;
+    
+    
+    
+        }
+
+
+
+        .control #month{
+
+
+          
+        
+        
+        
+            }
+
+
+            .control #year{
+
+
+              
+             
+            
+            
+            
+                }
+
+
+
+
+    
+    #controls{
+    
+       top: 5%; 
+      left: 30vw;
+
+
+
+      height:  170px;
+      width: 390px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      width: 340px;
+      height:  340px;
+
+border-radius:  200px;
+
+
+
+      padding: 10px;
+
+      
+
+    
+    }
+    
+   
+
+
+
+#delete-button{
+  
+border: 1px solid red;
+
+width: 20px;
+height: 20px;
+
+border-radius: 25px;
+
+transition: 1s;
+}
+
+
+
+#delete-button:hover{
+  
+
+  
+  width: 20px;
+  height: 20px;
+
+  transition: 1s;
+  
+background: rgba(255, 0, 0, 0.507); 
+box-shadow: 0 0 3px 1px rgba(255, 0, 0, 0.596);
+
+  border-radius: 25px;
+  
+  
+  }
+
